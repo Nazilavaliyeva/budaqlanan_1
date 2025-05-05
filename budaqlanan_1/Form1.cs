@@ -21,7 +21,7 @@ namespace budaqlanan_1
         {
             int number1 = Convert.ToInt32(textBox1.Text);
             int number2 = Convert.ToInt32(textBox2.Text);
-            int netice = 0;
+            int netice = 1;
             
             if (number1 > number2)
             {
@@ -33,7 +33,7 @@ namespace budaqlanan_1
             }
             else
             {
-                MessageBox.Show("Xəta baş verdi!");
+               MessageBox.Show("Xəta baş verdi!");
             }
             label1.Text = netice.ToString();
         }
